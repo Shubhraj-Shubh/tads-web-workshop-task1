@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x2 Matrix Operations</title>
+    <link rel="stylesheet" href="matrix.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <h2>2x2 Matrix Operations</h2>
+
+        <h3>Matrix A</h3>
+        <div class="matrix">
+            <input type="number" id="a1" placeholder="A11">
+            <input type="number" id="a2" placeholder="A12">
+            <input type="number" id="a3" placeholder="A21">
+            <input type="number" id="a4" placeholder="A22">
+        </div>
+
+        <h3>Matrix B</h3>
+        <div class="matrix">
+            <input type="number" id="b1" placeholder="B11">
+            <input type="number" id="b2" placeholder="B12">
+            <input type="number" id="b3" placeholder="B21">
+            <input type="number" id="b4" placeholder="B22">
+        </div>
+
+     <div class="matrix_buttons">    <button onclick="multiplyMatrices()">Multiply Matrices</button>
+        <button onclick="addMatrices()">Add Matrices</button>
+        <button onclick="subtractMatrices()">Subtract Matrices</button></div>
+
+        <h3>Result</h3>
+        <div class="matrix">
+            <input type="text" id="r1" readonly placeholder="R11">
+            <input type="text" id="r2" readonly placeholder="R12">
+            <input type="text" id="r3" readonly placeholder="R21">
+            <input type="text" id="r4" readonly placeholder="R22">
+        </div>
+
+        <div class="return">
+            <a href="index.html">Back to Bio Page</a>
+        </div>
+    </div>
+
+    <script src="matrix.js"></script>
+</body>
+</html>
+
